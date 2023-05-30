@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.card{
+  border-color: #F8FBFE;
+    background-color: #F8FBFE;
+    
+}
+.card:hover{
+background-color: #ffff;
+box-shadow: 0 4px 8px 0 #ec67a1;
+background-position: 100% 100%;
+}
+#card1{
+  box-shadow: 0 4px 8px 0 rgba(194, 241, 255, 0.492);
+  transition: 0.2s;
+  border-radius: 5px;
+    border-color: white;
+    background-color: #F8FBFE;
+    background:   linear-gradient(#fff8f8, #f6f0f0 50%, #021108 50%, #010804);
+    background-size: 100% 200%;
+    background-position: top;
+    transition: 1s;
+}
+#card1:hover{
+background-color: #ffff;
+box-shadow: 0 4px 8px 0 #ec67a1;
+background-position: 100% 100%;
+color:    white !important;
+}
+.btn:hover{
+  border: black;
+   color: black;
+}
+.carousel{
+  box-shadow: 0 4px 8px 0 rgba(200, 216, 220, 0.492);
+  transition: 0.3s;
+  border: rgb(22, 21, 21) !important;
+}
+.review{
+  box-shadow: 0 4px 8px 0 rgba(14, 30, 33, 0.492);
+  transition: 0.4s;
+
+}
+   
+footer {
+  display: block;
+}
+
+
+.emargency-care .single-emargency {
+  padding: 65px 50px 65px 60px;
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 490px;
+  height: 505px;
+  /* display: flex;
+  align-items: center; */
+}
+@media (max-width: 575px){
+.emargency-care .single-emargency {
+    padding: 15px;
+    width: 300px;
+    height: 405px;
+    background: linear-gradient(rgb(255, 68, 149) 0%, rgb(255, 109, 109) 100%, rgb(125, 185, 232) 100%);
+}
+}
+.border-btn {
+  border: 1px solid #fff;
+  color: #fff;
+  background: none;
+  text-transform: normal;
+  padding: 15px 34px !important;
+
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  position: relative;
+  transition: color 0.4s linear;
+  position: relative;
+  overflow: hidden;
+  border-radius: 30px;
+  z-index: 1;
+}
+
+
+.nav-link {
+  display: inline-block;
+  position: relative;
+  color: #e83ec9;
+}
+
+.nav-link:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #e83ec9 !important;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
